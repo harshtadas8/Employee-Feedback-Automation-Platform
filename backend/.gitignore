@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+fastapi-env/
+testing/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and local debug files
+logs/
+*.log
+*.out
+*.err
+*.pid
+
+# Database files
+*.sqlite3
+*.db
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# FastAPI & Uvicorn logs
+instance/
+*.log
+*.bak
+*.old
+
+# Docker
+docker-compose.override.yml
+docker-compose.debug.yml
+.dockerignore
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Alembic migration files
+migrations/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Node.js dependencies (if using frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Static files (if generated)
+staticfiles/
+media/
+
+# Temporary files
+tmp/
